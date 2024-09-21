@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 from skimage.metrics import structural_similarity as ssim
 from datetime import datetime
+import time  # Import time module
 
 # Function to spot differences
 def spot_diff(frame1, frame2):
